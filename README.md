@@ -1,12 +1,53 @@
-# React + Vite
+# 🌍 Adventure Seekers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Adventure Seekers is a modern travel website built with **React + Vite + Tailwind CSS**.  
+It allows users to explore unique trip options including **Family Trips**, **Group Adventures**, and **Mystery Trips** with an intuitive and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🏖️ **Family Trips** – Customizable trips based on family size and preferences  
+- 🥾 **Group Trips** – Join trips with 10–12 like-minded adventurers  
+- 🎭 **Mystery Trips** – Set a budget and get a surprise destination  
+- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop  
+- 🌐 **Navigation** – Smooth routing with React Router  
+- 📋 **Forms** – Plan trips, register for adventures, and get in touch easily  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite  
+- **Styling:** Tailwind CSS  
+- **Routing:** React Router DOM  
+- **Icons:** React Icons  
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/harsh-dev26/adventure-seekers.git
+cd adventure-seekers
+npm install
+npm run dev
+
+
+src/
+ ├── assets/              # Images & SVGs
+ ├── components/          # Reusable components
+ │   ├── home/            # Home page components
+ │   ├── family/          # Family trips page components
+ │   ├── group/           # Group trips page components
+ │   ├── mystery/         # Mystery trips page components
+ │   ├── contact/         # Contact page components
+ │   └── shared/          # Shared components (Navbar, Footer, Cards, etc.)
+ ├── pages/               # Page-level components
+ ├── App.jsx              # App entry point with routes
+ ├── main.jsx             # React DOM render
+ └── index.css            # Global styles
+
+Author: Harsh Sharma
+📧 Email: hs123619@gmail.com
+
+🔗 GitHub: harsh-dev26
